@@ -1,7 +1,10 @@
 import React from 'react';
-import RaisedButton from 'material-ui/RaisedButton';
+import { Head } from './head/head';
 
-export const Root = () => {
-  return (
-  <RaisedButton label="Default" />);
-};
+export class Root extends React.Component {
+  render() {
+    return (
+      <Head/>
+    );
+  }
+}
