@@ -1,4 +1,3 @@
-import { action } from 'mobx';
 import { dataStore } from '../stores/data-store';
 
 class Handler {

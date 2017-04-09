@@ -1,3 +1,9 @@
-/**
- * Created by yoavhedgewiz on 09/04/2017.
- */
+import React from 'react';
+
+export const Body = () => {
+  return (
+    <div>
+      somthings
+    </div>
+  )
+}
